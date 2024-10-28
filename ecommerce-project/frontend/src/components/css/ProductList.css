@@ -1,0 +1,18 @@
+
+.product-list {
+  display: grid; /* Activar grid layout */
+  grid-template-columns: repeat(3, 1fr); /* Mantener 3 columnas */
+  gap: 20px; /* Espacio entre productos */
+  justify-content: center; /* Centrar el contenido horizontalmente */
+  align-items: center; /* Centrar los elementos verticalmente (si es necesario) */
+  margin: 0 auto; /* Centrar el contenedor en la página */
+}
+
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+  }
+  
